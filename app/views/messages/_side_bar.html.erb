@@ -1,7 +1,7 @@
 <div class="side_bar_hedder">
 
  <div class="side_username"> 
-   <a href="#">tom</a> 
+   <%= link_to current_user.name, edit_user_path(current_user)%> 
  </div>
 
  <div class="chat_button">
